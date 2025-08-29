@@ -1,0 +1,50 @@
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./wellcome.css');
+@import url('./quality.css');
+@import url('./experience.css');
+@import url('./subscribe.css');
+@import url('./testimonials.css');
+@import url('./location.css');
+@import url('./footer.css');
+@import url('./mobilemenu.css');
+
+
+/* global styles */
+body {
+    font-family: "Quicksand", sans-serif;
+    color: #0B0803;
+    background-color: #E0CBB4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Aboreto", system-ui;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: disc;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.button {
+    cursor: pointer;
+}
